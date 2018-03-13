@@ -6,7 +6,7 @@ class Menu {
 		this.effect = effect;
 	}
 
-	use() {
+	selectLocation() {
 		return this.effect();
 	}
 }
