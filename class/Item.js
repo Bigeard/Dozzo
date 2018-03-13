@@ -8,35 +8,42 @@ class Item {
 }
 
 class Consumable extends Item {
-	constructor(name, description, price, stats, amount, effect) {
+	constructor(name, description, price, stats, amount, itemType, use) {
 		super(name, description, price, stats);
 		this.amount = amount;
-		this.effect = effect;
+		this.itemType = itemType;
+		this.use = use;
 	}
 
 	use(user, target) {
-		return this.effect(user, target);
+		return this.use(user, target);
 	}
 }
 
 class Weapon extends Item {
-	constructor(name, description, price, stats, weapon, weakness, strength, effect) {
+	constructor(name, description, price, stats, itemType, weakness, strength, use) {
 		super(name, description, price, stats);
-		this.weapon = weapon;
+		this.itemType = itemType;
 		this.weakness = weakness;
 		this.strength = strength;
+		this.use = use;
+	}
+
+	use(user, target) {
+		return this.use(user, target);
+	}
+}
+
+class Armor extends Item {
+	constructor(name, description, price, stats, bodyPart, equipped, effect) {
+		super(name, description, price, stats);
+		this.bodyPart = bodyPart;
+		this.itemType = itemType;
+		this.equipped = equipped;
 		this.effect = effect;
 	}
 
 	use(user, target) {
 		return this.effect(user, target);
-	}
-}
-
-class Armor extends Item {
-	constructor(name, description, price, stats, bodyPart, equipped) {
-		super(name, description, price, stats);
-		this.bodyPart = bodyPart;
-		this.equipped = equipped;
 	}
 }

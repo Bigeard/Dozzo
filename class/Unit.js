@@ -8,7 +8,8 @@ class Unit {
 		this.inGameStat = inGameStat;
 		this.skill = skill;
 	}
-	getClassStats() {
+	joinClass(classUnit) {
+		this.classUnit = classUnit;
 		this.baseStat.health += this.classUnit.stats.health;
 		this.baseStat.dozzo += this.classUnit.stats.dozzo;
 		this.baseStat.might += this.classUnit.stats.might;

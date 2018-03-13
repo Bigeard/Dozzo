@@ -1,7 +1,7 @@
 class UnitClass {
-	constructor(name, weapon, skill, stats) {
+	constructor(name, itemTypeList, skill, stats) {
 		this.name = name;
-		this.weapon = weapon;
+		this.itemTypeList = itemTypeList;
 		this.skill = skill;
 		this.stats = stats;
 	}
