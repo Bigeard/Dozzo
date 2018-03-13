@@ -8,10 +8,9 @@ class Item {
 }
 
 class Consumable extends Item {
-	constructor(name, description, price, stats, amount, itemType, use) {
+	constructor(name, description, price, stats, amount, use) {
 		super(name, description, price, stats);
 		this.amount = amount;
-		this.itemType = itemType;
 		this.use = use;
 	}
 
@@ -21,11 +20,9 @@ class Consumable extends Item {
 }
 
 class Weapon extends Item {
-	constructor(name, description, price, stats, itemType, weakness, strength, use) {
+	constructor(name, description, price, stats, itemType, use) {
 		super(name, description, price, stats);
 		this.itemType = itemType;
-		this.weakness = weakness;
-		this.strength = strength;
 		this.use = use;
 	}
 
@@ -35,10 +32,10 @@ class Weapon extends Item {
 }
 
 class Armor extends Item {
-	constructor(name, description, price, stats, bodyPart, equipped, effect) {
+	constructor(name, description, price, stats, itemType, bodyPart, equipped, effect) {
 		super(name, description, price, stats);
-		this.bodyPart = bodyPart;
 		this.itemType = itemType;
+		this.bodyPart = bodyPart;
 		this.equipped = equipped;
 		this.effect = effect;
 	}

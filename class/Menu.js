@@ -1,12 +1,14 @@
 class Menu {
-	constructor(name, disposition, locations,) {
+	constructor(name, disposition, cursorLocation) {
 		this.name = name;
 		this.disposition = disposition;
 		this.cursorLocation = cursorLocation;
-		this.effect = effect;
 	}
 
 	selectLocation() {
-		return this.effect();
+		return "code à réaliser";
+	}
+	applyDisposition() {
+		return this.disposition();
 	}
 }

@@ -3,47 +3,34 @@
 <html>
 
 <head>
+	<title>Dozzo</title>
     <meta charset="UTF-8">
-	<title>Test</title>
 	<link rel="icon" href="img/favicon.ico" />
 
-	<script src="class/Inventory.js"></script>
-	<script src="class/Item.js"></script>
+	<script src="class/MenuDisposition.js"></script>
+	<script src="object/MenuDisposition.js"></script>
 	<script src="class/Menu.js"></script>
-	<script src="class/Skill.js"></script>
-	<script src="class/Statistics.js"></script>
-	<script src="class/Unit.js"></script>
-	<script src="class/UnitClass.js"></script>
+	<script src="object/Menu.js"></script>
+	<script src="class/Inventory.js"></script>
+	<script src="object/Inventory.js"></script>
 
+	<script src="class/Stats.js"></script>
+	<script src="object/Stats.js"></script>
+	<script src="class/ItemType.js"></script>
+	<script src="object/ItemType.js"></script>
+
+	<script src="class/Item.js"></script>
 	<script src="object/Item.js"></script>
+	<script src="class/Skill.js"></script>
+	<script src="object/Skill.js"></script>
+
+	<script src="class/UnitClass.js"></script>
+	<script src="object/UnitClass.js"></script>
+	<script src="class/Unit.js"></script>
+	<script src="object/Unit.js"></script>
 </head>
 
 <body>
-	<script>
-		var skillLightSword = new Skill(
-			"Light Sword",
-			(user, target) => { return user.name + " uses " + skillLightSword.name + " but it doesn't have any effect"; }
-		);
-		var classMagicKnightStats = new Statistics(10);
-		var classMagicKnight = new UnitClass(
-			'magicKnight',
-			['magic', 'sword'],
-			skillLightSword,
-			classMagicKnightStats
-		);
-		var baseStatsUnitPlayer = new Statistics(20);
-		var unitPlayer = new Unit(
-			'Bertrand',
-			undefined,
-			1,
-			0,
-			baseStatsUnitPlayer
-		);
-		var unitFoe = new Unit(
-			'Alvin',
-			classMagicKnight
-		);
-	</script>
 </body>
 
 </html>

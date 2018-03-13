@@ -1,4 +1,4 @@
-class Statistics {
+class Stats {
 	constructor(health, dozzo, might, magic, defense, resistance, speed, luck) {
 		this.health = health;
 		this.dozzo = dozzo;

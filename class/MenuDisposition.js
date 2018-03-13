@@ -1,4 +1,4 @@
-class MenuDisposition {
+class DispositionMenu {
 	constructor(apply) {
 		this.apply = apply;
 	}

@@ -1,17 +1,16 @@
-var weaponRapiere = new Weapon (
-	"Rapière",
+var rapiereWeapon = new Weapon (
+	"Rapier",
 	"A slim sword, not very powerful but pretty accurate.",
 	150,
-	"stats",
-	"sword",
-	"weakness",
-	"strength",
-	(user, target) => { return user.name + 'uses' + weaponRapiere.name; }
+	rapierWeaponStats,
+	swordItemType,
+	(user, target) => { return user.name + 'uses' + rapiereWeapon.name; }
 );
-var weaponGoldSword = new Weapon (
+var goldSwordWeapon = new Weapon (
 	"Gold sword",
-	"Une épée en or.",
-	400,
-	"stats",
-	"sword"
+	"A golden sword. Really fancy but not very useful...",
+	1000,
+	goldSwordWeaponStats,
+	swordItemType,
+	(user, target) => { return user.name + 'uses' + goldSwordWeapon.name; }
 );
