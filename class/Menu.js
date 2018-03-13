@@ -1,7 +1,8 @@
 class Menu {
-	constructor(name, disposition, cursorLocation) {
+	constructor(name, disposition, location, cursorLocation) {
 		this.name = name;
 		this.disposition = disposition;
+		this.location = location;
 		this.cursorLocation = cursorLocation;
 	}
 
