@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'PS2P';
     src: url('../font/PressStart2P.ttf') format('truetype');
-    font-size: 16px;
-    }
+}
 
 html, body{
     /* font */

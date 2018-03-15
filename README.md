@@ -1,7 +1,7 @@
 # Dozzo  :space_invader: :space_invader: :space_invader:
 Mini RPG Game
 -----------------
-![Dozzo Logo](img/dozzo.png "Dozzo Logo")
+![Dozzo Logo](img/dozzo-banner.png "Dozzo Logo")
 
 <!--
 ▀█████████▄  BINVENUE DANS LE DONJON DU ...
