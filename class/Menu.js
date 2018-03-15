@@ -7,7 +7,7 @@ class Menu {
 	}
 
 	selectLocation() {
-		return "code à réaliser";
+		return "code à réaliser pour tout menu";
 	}
 	applyDisposition() {
 		return this.disposition();
