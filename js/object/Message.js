@@ -1,0 +1,1 @@
+var messageTest = new Message (['Je suis un message de test !']['Je suis la deuxième ligne...']['Et regardez, j\'ai un système de scoll !']);

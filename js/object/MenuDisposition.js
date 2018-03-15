@@ -1,6 +1,6 @@
-var verticalDispositionMenu = new DispositionMenu (
-	() => { return "verticalDispositionMenu"; }
+var verticalDispositionMenu = new MenuDisposition (
+	() => { return "verticalMenuDisposition"; }
 );
-var horizontalDispositionMenu = new DispositionMenu (
-	() => { return "horizontalDispositionMenu"; }
+var horizontalDispositionMenu = new MenuDisposition (
+	() => { return "horizontalMenuDisposition"; }
 );

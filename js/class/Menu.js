@@ -1,13 +1,16 @@
 class Menu {
-	constructor(name, disposition, location, cursorLocation) {
-		this.name = name;
+	constructor(disposition, location, cursorLocation, use) {
 		this.disposition = disposition;
 		this.location = location;
 		this.cursorLocation = cursorLocation;
+		this.use;
 	}
 
 	selectLocation() {
-		return "code à réaliser pour tout menu";
+		return this.location[cursorLocation].use();
+	}
+	use() {
+		return "";
 	}
 	applyDisposition() {
 		return this.disposition();
