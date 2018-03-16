@@ -28,6 +28,10 @@ html, body{
     margin: auto;
 }
 
+#message {
+    filter: contrast(500%);
+}
+
 .nes-border {
     background-color: black;
     border: 10px solid transparent;
