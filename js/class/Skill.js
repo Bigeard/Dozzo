@@ -1,10 +1,6 @@
 class Skill {
-	constructor(name, use) {
+	constructor(name, trigger) {
 		this.name = name;
-		this.use = use;
-	}
-
-	use(user, target) {
-		return this.use(user, target);
+		this.trigger = trigger;
 	}
 }

@@ -1,1 +1,1 @@
-var messageTest = new Message ([['J\'ai réussi !!! Ca marche !!!'], ['Les setTimeOut j\'te jure...'], ['Et regardez, j\'ai un système de scoll !']]);
+var messageTest = new Message (['J\'ai réussi !!! Ca marche !!!', 'Les setTimeOut j\'te jure...', 'J\'ai un système de scoll !']);

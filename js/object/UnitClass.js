@@ -1,34 +1,29 @@
 var fighterUnitClass = new UnitClass(
 	'Fighter',
-	[swordItemType, axeItemType],
-	rageSkill,
-	fighterUnitClassStats
+	fighterUnitClassStats,
+	fighterUnitClassSkillList
 );
 
 var thiefUnitClass = new UnitClass(
 	'Thief',
-	[swordItemType, daggerItemType],
-	vanishSkill,
-	thiefUnitClassStats
+	thiefUnitClassStats,
+	thiefUnitClassSkillList
 );
 
 var mageUnitClass = new UnitClass(
 	'Mage',
-	[magicItemType],
-	incantationSkill,
-	mageUnitClassStats
+	mageUnitClassStats,
+	mageUnitClassSkillList
 );
 
 var darkMageUnitClass = new UnitClass(
 	'Dark Mage',
-	[magicItemType, blackMagicItemType],
-	disableSkill,
-	darkMageUnitClassStats
+	darkMageUnitClassStats,
+	darkMageUnitClassSkillList
 );
 
 var abominationUnitClass = new UnitClass(
 	'Abomination',
-	[axeItemType, blackMagicItemType],
-	poisoningSkill,
-	abominationUnitClassStats
+	abominationUnitClassStats,
+	abominationUnitClassSkillList
 );

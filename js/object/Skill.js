@@ -3,18 +3,18 @@ var rageSkill = new Skill(
 	(user, target) => { return user.name + " uses " + rage.name + " but it doesn't have any effect"; }
 );
 var vanishSkill = new Skill(
-	"Rage",
+	"Vanish",
 	(user, target) => { return user.name + " uses " + rage.name + " but it doesn't have any effect"; }
 );
 var incantationSkill = new Skill(
-	"Rage",
+	"Incantation",
 	(user, target) => { return user.name + " uses " + rage.name + " but it doesn't have any effect"; }
 );
 var disableSkill = new Skill(
-	"Rage",
+	"Disable",
 	(user, target) => { return user.name + " uses " + rage.name + " but it doesn't have any effect"; }
 );
 var poisoningSkill = new Skill(
-	"Rage",
+	"Poisoning",
 	(user, target) => { return user.name + " uses " + rage.name + " but it doesn't have any effect"; }
 );

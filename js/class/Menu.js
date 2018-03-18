@@ -1,18 +1,11 @@
 class Menu {
-	constructor(disposition, location, cursorLocation, use) {
-		this.disposition = disposition;
-		this.location = location;
-		this.cursorLocation = cursorLocation;
-		this.use;
+	constructor(element, cursor, trigger) {
+		this.element = element;
+		this.cursor = cursor;
+		this.trigger = trigger;
 	}
 
-	selectLocation() {
-		return this.location[cursorLocation].use();
-	}
-	use() {
-		return "";
-	}
-	applyDisposition() {
-		return this.disposition();
+	triggerElement() {
+		return this.element[this.cursor].trigger();
 	}
 }
